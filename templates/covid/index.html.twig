@@ -1,0 +1,6 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Total number of cases and deaths in {{ country|capitalize }}</h1>
+    {{ render_chart(chart) }}
+{% endblock %}
